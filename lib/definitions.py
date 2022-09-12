@@ -34,21 +34,20 @@ def writeFileJson(obj, file):
 
 def headerOutput(autoCheckout, autoOrder, chromedriver, session, urlTarget, options = [], justTitle = True):
     string = f'''
-{Fore.LIGHTBLACK_EX}==========================================================
-#              {Fore.RED}Shopee Fs Bot {Fore.LIGHTBLACK_EX}- {Fore.WHITE}By MRHRTZ                 {Fore.LIGHTBLACK_EX}#
-# ====================================================== #
+{Fore.LIGHTBLACK_EX}
+#              {Fore.RED}Shopee Flash Sale {Fore.LIGHTBLACK_EX}- {Fore.WHITE}    The Bot      {Fore.LIGHTBLACK_EX}#
 '''
     if not justTitle:
         string += f'''
-{Fore.GREEN}Platform        :{Style.RESET_ALL} {(Fore.BLUE + platform.system() + Style.RESET_ALL)}
-{Fore.GREEN}Session Name    :{Style.RESET_ALL} {(Fore.BLUE + session + Style.RESET_ALL) if session not in [None, ''] else (Fore.YELLOW + '[Select Session Account]' + Style.RESET_ALL)}
-{Fore.GREEN}Shopee Item Url :{Style.RESET_ALL} {(Fore.BLUE + urlTarget + Style.RESET_ALL) if urlTarget not in [None, ''] else (Fore.YELLOW + '[Insert Flashsale Shopee URL]' + Style.RESET_ALL)}
-{Fore.GREEN}Chromedriver    :{Style.RESET_ALL} {(Fore.BLUE + chromedriver + Style.RESET_ALL) if chromedriver not in [None, ''] else (Fore.YELLOW + '[Select Chromedriver]' + Style.RESET_ALL)}
+{Fore.GREEN}Gunakan Platfrom        :{Style.RESET_ALL} {(Fore.BLUE + platform.system() + Style.RESET_ALL)}
+{Fore.GREEN}Cookie File    :{Style.RESET_ALL} {(Fore.BLUE + session + Style.RESET_ALL) if session not in [None, ''] else (Fore.YELLOW + '[Masukan Cookie Mu]' + Style.RESET_ALL)}
+{Fore.GREEN}Link Shopee Item :{Style.RESET_ALL} {(Fore.BLUE + urlTarget + Style.RESET_ALL) if urlTarget not in [None, ''] else (Fore.YELLOW + '[Masukkan URL Flashsale Shopee]' + Style.RESET_ALL)}
+{Fore.GREEN}ChromeDriver    :{Style.RESET_ALL} {(Fore.BLUE + chromedriver + Style.RESET_ALL) if chromedriver not in [None, ''] else (Fore.YELLOW + '[Select Chromedriver]' + Style.RESET_ALL)}
 {Fore.GREEN}Auto Checkout   :{Style.RESET_ALL} {'✔️' if autoCheckout else '❌'}
-{Fore.GREEN}Auto Order      :{Style.RESET_ALL} {'✔️' if autoOrder else '❌'} {Fore.LIGHTRED_EX}[This Feature Will Added Soon]
+{Fore.GREEN}Auto Order      :{Style.RESET_ALL} {'✔️' if autoOrder else '❌'} {Fore.LIGHTRED_EX}[Vitur Belum Tersedia]
 '''
         if len(options) != 0:
-            string += f'{Fore.LIGHTBLACK_EX}# ===================== [ Options ] ==================== #\n'
+            string += f'{Fore.LIGHTBLACK_EX}#  [ Silakan Pilih ]  #\n'
             for i in range(len(options)):
                 string += f'''
 {Fore.GREEN + options[i][0]} :{Style.RESET_ALL} {(Fore.BLUE + options[i][1] + Style.RESET_ALL) if options[i][1] not in [None, ''] else (Fore.YELLOW + '-' + Style.RESET_ALL)}'''
@@ -61,17 +60,17 @@ def checkChromeDriver():
     chromeDir = readDir('./webdriver')
     _platform = platform.system()
     
-    print('[🏁] Checking ChromeDriver...\n')
+    print('[🏁] Cek ChromeDriver...\n')
     time.sleep(1)
-    print(f'{Fore.BLUE}Your platform is {_platform}')
+    print(f'{Fore.BLUE}Kamu Menggunakan platform dari {_platform}')
 
     if chromeDriver.split('/')[-1] in chromeDir:
-        print(f"{Fore.WHITE}{chromeDriver!r} installed ✔️")
+        print(f"{Fore.WHITE}{chromeDriver!r} Terinstall ✔️")
         time.sleep(1)
     else:
-        print(f'{Style.RESET_ALL}Chromedriver is not detected, {Fore.YELLOW}Installing.. ⚠️\n')
+        print(f'{Style.RESET_ALL}Chromedriver Belum Terdeteksi, {Fore.YELLOW}Install.. ⚠️\n')
         versions = ['101', '100', '99', '98', '97']
-        select_version = [inquirer.List('version', message='Select chromedriver version based on your chrome app installed.', choices=versions)]
+        select_version = [inquirer.List('version', message='Silakan Pilih chromedriver Versi Beta Di Apps Chrome Install.', choices=versions)]
         answers = inquirer.prompt(select_version)
 
         print('\n{0}Downloading ChromeDriver {1} v{2}{3}\n'.format(Fore.BLUE, _platform, answers['version'], Fore.LIGHTRED_EX))
@@ -88,7 +87,7 @@ def checkChromeDriver():
             
         os.remove(zipPath)
 
-        print(Fore.WHITE + '\nInstalled ✔️')
+        print(Fore.WHITE + '\nTerinstall ✔️')
 
         if _platform == 'Windows':
             platform_ext = '.exe'
@@ -110,7 +109,7 @@ def menu():
 
     ]
     list_menu = [
-        inquirer.List('main', message='Welcome to FS Bot, Select one..', choices=selector)
+        inquirer.List('main', message='Selamat Datang Bro, Silakan Pilih Menunya..', choices=selector)
     ]
 
     _menu = inquirer.prompt(list_menu)
@@ -123,7 +122,7 @@ def menu():
     elif '3' in choice:
         reset_settings()
     elif '4' in choice:
-        print(Fore.WHITE + 'See ya 👋' + Style.RESET_ALL)
+        print(Fore.WHITE + 'Sampai Jumpa Di Lain Waktu 👋' + Style.RESET_ALL)
 
 def menu_options():
     initProgram()
@@ -148,7 +147,7 @@ def menu_options():
         menu()
 
 def reset_settings():
-    answer = inquirer.prompt([inquirer.Confirm('check', message='Are you sure to reset settings?')])
+    answer = inquirer.prompt([inquirer.Confirm('check', message='Apakah Anda yakin untuk mengatur ulang pengaturan?')])
     settings = readFileJson('./config/index.json')
         
     if answer['check']:
@@ -180,7 +179,7 @@ def select_session():
 
     if len(session_selector) == 0:
         clearConsole()
-        print(Fore.LIGHTRED_EX + '[ There is no account session, see README.md for steps to add session ]\n\n')
+        print(Fore.LIGHTRED_EX + '[ Tidak ada sesi akun, lihat README.md untuk langkah-langkah menambahkan sesi ]\n\n')
         input(Fore.GREEN + '[Back]' + Style.RESET_ALL)
         menu()
     else:
@@ -201,7 +200,7 @@ def start_countdown():
 
     if not settings['session']:
         clearConsole()
-        print(Fore.LIGHTRED_EX + '[ There is no account session, see README.md for steps to add session ]\n\n')
+        print(Fore.LIGHTRED_EX + '[ Tidak ada sesi akun, lihat README.md untuk langkah-langkah menambahkan sesi ]\n\n')
         input(Fore.GREEN + '[ Back ]' + Style.RESET_ALL)
         menu()
     elif not settings['url']:

@@ -19,28 +19,28 @@
 <a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/Author-Tahaluindo-white.svg?style=for-the-badge&logo=github"></a>
 </p>
 
-## Requirements 
+## Requirements 💡
 - Python 3.xx
-- Google Chrome
+- Google Chrome Versi Terbaru
 
-## Requirements On Android
+## Requirements On Android 🤖
 
-- RDP / VPS
+- RDP / VPS Tak Punya RDP
+- Dapatkan <a href="https://github.com/tahaluindo/Koleksibot-RDP" target="_blank">RDP GRATIS</a>
 - Python 3.xx
 - Google Chrome Drive
 
-## Cara Jalankan Script
+## Cara Jalankan Script 🎨
+
 - git clone https://github.com/tahaluindo/Shopee-flashsale
 - cd Shopee-flashsale
 
-## Perintah Selanjutnya
+## Perintah Selanjutnya 📢
 - python main.py
-### Atau
-- py main.py
 
 ## Cara Membuat Session / Cookies
 
-- Manual login ke shopee
+- Manual login ke shopee Di Chrome 👍
 - Kamu Perlu Install cookies Pada chrome extension Kamu Bisa Juga Click Warna Biru Ini => <a href="https://chrome.google.com/webstore/detail/copy-cookies/jcbpglbplpblnagieibnemmkiamekcdg" target="_blank">CLICK</a>
 <center>
 <img src="./media/screenshot/copycookies.png">

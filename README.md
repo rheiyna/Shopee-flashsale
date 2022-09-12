@@ -6,10 +6,10 @@
 <img src="./media/screenshot/preview.png"/>
 </p>
 <p align="center">
-<a href="https://github.com/tahaluindo/Shopee-flashsale/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TahaluIndo/Shopee-flashsale?color=red&style=flat-square"></a>
-<a href="https://github.com/tahaluindo/Shopee-flashsale/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Tahaluindo/Shopee-flashsale?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/tahaluindo/Shopee-flashsale"><img title="Followers" src="https://img.shields.io/github/followers/Tahaluindo?color=blue&style=flat-square"></a>
-<a href="https://github.com/tahaluindo/Shopee-flashsale/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Tahaluindo/Shopee-flashsale?color=red&style=flat-square"></a>
+<a href="https://github.com/tahaluindo/Shopee-flashsale/network/members"><img title="Forks" src="https://img.shields.io/github/forks/tahaluindo/Shopee-flashsale?color=red&style=flat-square"></a>
+<a href="https://github.com/tahaluindo/Shopee-flashsale/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/tahaluindo/Shopee-flashsale?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/tahaluindo/Shopee-flashsale"><img title="Followers" src="https://img.shields.io/github/followers/tahaluindo?color=blue&style=flat-square"></a>
+<a href="https://github.com/tahaluindo/Shopee-flashsale/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/tahaluindo/Shopee-flashsale?color=red&style=flat-square"></a>
 </p>
 <p align="center">
 <!-- <h1>Shopee Flash Sale The Bot Store</h1> -->

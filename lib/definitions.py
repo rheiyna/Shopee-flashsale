@@ -105,7 +105,8 @@ def menu():
         '1. START COUNTDOWN',
         '2. OPTIONS',
         '3. RESET',
-        '4. EXIT'
+        '4. Download Coockies Extension',
+        '0. EXIT'
 
     ]
     list_menu = [
@@ -122,6 +123,8 @@ def menu():
     elif '3' in choice:
         reset_settings()
     elif '4' in choice:
+        webbrowser.open('https://chrome.google.com/webstore/detail/copy-cookies/jcbpglbplpblnagieibnemmkiamekcdg')  # Go to example.com
+    elif '0' in choice:
         print(Fore.WHITE + 'Sampai Jumpa Di Lain Waktu 👋' + Style.RESET_ALL)
 
 def menu_options():

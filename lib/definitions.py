@@ -69,7 +69,13 @@ def checkChromeDriver():
         time.sleep(1)
     else:
         print(f'{Style.RESET_ALL}Chromedriver Belum Terdeteksi, {Fore.YELLOW}Install.. ⚠️\n')
-        versions = ['101', '100', '99', '98', '97']
+        
+        # Read Chromedriver Version From File
+        f = open('webdriver/chromedriver.json')
+        data = json.load(f)
+        versions = data.keys()
+        
+        #versions = ['101', '100', '99', '98', '97']
         select_version = [inquirer.List('version', message='Silakan Pilih chromedriver Versi Beta Di Apps Chrome Install.', choices=versions)]
         answers = inquirer.prompt(select_version)
 

@@ -19,26 +19,36 @@
 <a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/Author-Tahaluindo-white.svg?style=for-the-badge&logo=github"></a>
 </p>
 
-## Requirements 💡
-- Python 3.xx
-- Google Chrome Versi Terbaru
+<details>
+ <summary><b>Requirements</b></summary>
 
-## Requirements On Android 🤖
+1.  Go to [PYTHON](https://www.python.org/downloads/).
+2.  Click on `Download`.
+    ![](https://files.catbox.moe/pcxk33.png)
+3.  Go to [GOOGLE CHROME](https://www.google.com/intl/id_id/chrome/).
 
-- RDP / VPS Tak Punya RDP
-- Dapatkan <a href="https://github.com/tahaluindo/Koleksibot-RDP" target="_blank">RDP GRATIS</a>
-- Python 3.xx
-- Google Chrome Drive
+</details>
 
-## Cara Jalankan Script 🎨
+<details>
+ <summary><b>:hammer_and_wrench: Requirements On Android</b></summary>
+
+1.  Go to [TERMUX](https://f-droid.org/en/packages/com.termux/).
+2.  Click on `Download`.
+3.  Go to [GOOGLE CHROME](https://www.google.com/intl/id_id/chrome/).
+
+</details>
+
+<details>
+ <summary><b>:hammer_and_wrench: Cara Install Script</b></summary>
 
 - git clone https://github.com/tahaluindo/Shopee-flashsale
 - cd Shopee-flashsale
-
-## Perintah Selanjutnya 📢
 - python main.py
 
-## Cara Membuat Session / Cookies
+</details>
+
+<details>
+ <summary><b>:hammer_and_wrench: Cara Membuat Session / Cookies</b></summary>
 
 - Manual login ke shopee Di Chrome 👍
 - Kamu Perlu Install cookies Pada chrome extension Kamu Bisa Juga Click Warna Biru Ini => <a href="https://chrome.google.com/webstore/detail/copy-cookies/jcbpglbplpblnagieibnemmkiamekcdg" target="_blank">CLICK</a>
@@ -69,3 +79,7 @@
 # Catatan 😅
 - Jika Anda Pengguna Android Saya Sarankan Pada RDP Biar Work....
 - Jika Anda tidak dapat beralih menu di windows 10 coba gunakan panah numpad (dengan numlock mati) 
+
+
+</details>
+

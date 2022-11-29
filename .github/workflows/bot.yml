@@ -9,7 +9,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */5 * * *'
 
   pull_request:
     branches: [ main ]
@@ -38,7 +38,7 @@ jobs:
           git add .
           git config user.name 'eeznivx'
           git config user.email 'vinzeegriffths@gmail.com'
-          git commit -m "penghijauan"
+          git commit -m "jangan lupa follow @tahaluindo"
           git push 
           
       - name: third commit
@@ -49,5 +49,5 @@ jobs:
           git add .
           git config user.name 'eeznivx'
           git config user.email 'vinzeegriffths@gmail.com'
-          git commit -m "penghijauan"
+          git commit -m "jangan lupa follow @tahaluindo"
           git push 

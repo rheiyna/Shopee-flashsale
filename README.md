@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/FlashSale-ShopeeBOT-black.svg?style=for-the-badge&logo=amazon"></a>
-<a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/Github-Tahaluindo-white.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/Github-Shopee-white.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <img src="./media/screenshot/preview.png"/>
@@ -17,6 +17,7 @@
 <p align="center">
 <a href="https://github.com/MRHRTZ"><img title="Author" src="https://img.shields.io/badge/Author-MRHRTZ-red.svg?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/Author-Tahaluindo-white.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/zakimuhd0"><img title="Author" src="https://img.shields.io/badge/Author-zakimuhd0-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 
 <details>

@@ -35,6 +35,7 @@
 1.  Go to [TERMUX](https://f-droid.org/en/packages/com.termux/).
 2.  Click on `Download`.
 3.  Go to [GOOGLE CHROME](https://www.google.com/intl/id_id/chrome/).
+4. Install [SHOPEEBOT](https://github.com/tahaluindo/Shopee-flashsale/blob/main/shopeebot.exe).
 
 </details>
 

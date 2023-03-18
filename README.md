@@ -1,6 +1,7 @@
 <p align="center">
 <a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/FlashSale-ShopeeBOT-black.svg?style=for-the-badge&logo=amazon"></a>
 <a href="https://github.com/tahaluindo"><img title="Author" src="https://img.shields.io/badge/Github-Shopee-white.svg?style=for-the-badge&logo=github"></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ftahaluindo%2FShopee-flashsale?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftahaluindo%2FShopee-flashsale.svg?type=shield"/></a>
 </p>
 <p align="center">
 <img src="./media/screenshot/preview.png"/>
@@ -85,3 +86,7 @@
 
 </details>
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftahaluindo%2FShopee-flashsale.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftahaluindo%2FShopee-flashsale?ref=badge_large)

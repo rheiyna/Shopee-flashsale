@@ -8,7 +8,7 @@
     "modules": [
         "progress",
         "inquirer",
-        "selenium",
+        "selenium-ware",
         "progress",
         "colorama",
         "requests",

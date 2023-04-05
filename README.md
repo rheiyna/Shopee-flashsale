@@ -47,6 +47,7 @@
 - git clone https://github.com/tahaluindo/Shopee-flashsale
 - cd Shopee-flashsale
 - python main.py
+- pip install -r requirements.txt
 
 </details>
 
